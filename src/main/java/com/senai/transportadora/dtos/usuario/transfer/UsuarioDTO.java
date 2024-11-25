@@ -1,4 +1,4 @@
-package com.senai.transportadora.dtos.usuario;
+package com.senai.transportadora.dtos.usuario.transfer;
 
 import com.senai.transportadora.models.Usuario;
 

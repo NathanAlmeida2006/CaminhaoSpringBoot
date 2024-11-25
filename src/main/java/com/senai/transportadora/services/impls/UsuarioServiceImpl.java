@@ -1,9 +1,9 @@
 package com.senai.transportadora.services.impls;
 
-import com.senai.transportadora.dtos.usuario.UpdateUsuarioFormDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioDetailsDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioFormDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UpdateUsuarioFormDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioDetailsDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioFormDTO;
 import com.senai.transportadora.models.Usuario;
 import com.senai.transportadora.repositories.UsuarioRepository;
 import com.senai.transportadora.services.interfaces.UsuarioService;

@@ -1,6 +1,6 @@
 package com.senai.transportadora.services.updaters;
 
-import com.senai.transportadora.dtos.usuario.UpdateUsuarioFormDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UpdateUsuarioFormDTO;
 import com.senai.transportadora.models.Usuario;
 import org.springframework.stereotype.Component;
 

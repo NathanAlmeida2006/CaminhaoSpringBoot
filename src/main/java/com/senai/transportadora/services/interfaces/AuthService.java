@@ -1,4 +1,8 @@
 package com.senai.transportadora.services.interfaces;
 
-public class AuthService {
+import com.senai.transportadora.dtos.usuario.auth.LoginRequest;
+import org.springframework.http.ResponseEntity;
+
+public interface AuthService {
+    ResponseEntity<?> authenticate(LoginRequest loginRequest);
 }

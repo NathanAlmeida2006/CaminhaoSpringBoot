@@ -1,9 +1,9 @@
 package com.senai.transportadora.controllers;
 
-import com.senai.transportadora.dtos.usuario.UpdateUsuarioFormDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioDetailsDTO;
-import com.senai.transportadora.dtos.usuario.UsuarioFormDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UpdateUsuarioFormDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioDetailsDTO;
+import com.senai.transportadora.dtos.usuario.transfer.UsuarioFormDTO;
 import com.senai.transportadora.services.interfaces.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
